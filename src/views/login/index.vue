@@ -11,6 +11,7 @@
               alt=""
             />
             <!-- <span class="title-label">苍穹外卖</span> -->
+            <span class="artistic-title">  校园订餐系统</span>
           </div>
           <el-form-item prop="username">
             <el-input
@@ -124,7 +125,6 @@ export default class extends Vue {
   justify-content: center;
   align-items: center;
   height: 100%;
-  // background: #476dbe;
   background-color: #333;
 }
 
@@ -205,26 +205,27 @@ export default class extends Vue {
   border: 0;
   font-weight: 500;
   color: #333333;
-  // background: #09a57a;
   background-color: #ffc200;
   &:hover,
   &:focus {
-    // background: #09a57a;
     background-color: #ffc200;
     color: #ffffff;
   }
 }
+
 .login-form-title {
   height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-  .title-label {
-    font-weight: 500;
-    font-size: 20px;
-    color: #333333;
+  .artistic-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #555555;
     margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
   }
 }
 </style>
