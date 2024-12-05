@@ -249,7 +249,7 @@ export default class extends Vue {
     })
     // this.$router.push(`/login?redirect=${this.$route.fullPath}`)
   }
-  // 获取未读消息
+  // 获未读消息
   async getCountUnread() {
     const { data } = await getCountUnread()
     if (data.code === 1) {
@@ -308,7 +308,7 @@ export default class extends Vue {
   height: 60px;
   // overflow: hidden;
   position: relative;
-  background: #ffc100;
+  background: rgb(2,182,253);
 
   // box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
   .statusBox {
@@ -544,7 +544,7 @@ export default class extends Vue {
     }
     .el-radio-group {
       & > .is-checked {
-        border: 1px solid #ffc200;
+        border: 1px solid rgb(2,182,253);
       }
     }
     .el-radio {

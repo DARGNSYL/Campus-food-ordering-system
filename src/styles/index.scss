@@ -84,7 +84,7 @@ a:hover {
   }
 
   .el-button--primary {
-    background-color: #FFC200 !important;
+    background-color: rgb(2,182,253) !important;
   }
 
   span {
@@ -1691,11 +1691,11 @@ input[type="number"] {
 }
 
 .el-pager li:hover {
-  color: #ffc200;
+  color: rgb(2,182,253);;
 }
 
 .el-pager li.active {
-  color: #ffc200;
+  color: rgb(2,182,253);;
   cursor: default;
 }
 
@@ -1761,7 +1761,7 @@ input[type="number"] {
 
 .el-dialog__headerbtn:focus .el-dialog__close,
 .el-dialog__headerbtn:hover .el-dialog__close {
-  color: #ffc200;
+  color: rgb(2,182,253);;
 }
 
 .el-dialog__title {
@@ -2210,7 +2210,7 @@ input[type="number"] {
 }
 
 .el-menu--horizontal>.el-menu-item.is-active {
-  border-bottom: 2px solid #ffc200;
+  border-bottom: 2px solid rgb(2,182,253);;
   color: #20232a;
 }
 
