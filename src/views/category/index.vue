@@ -458,9 +458,9 @@ export default class extends Vue {
 }
 </style>
 <style lang='scss'>
-// .customClass {
-//   .el-button--primary {
-//     background-color: #ffc200 !important ;
-//   }
-// }
+.customClass {
+  .el-button--primary {
+    background-color: rgb(2,183,253) !important ;
+  }
+}
 </style>
