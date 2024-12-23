@@ -22,7 +22,7 @@
                hidden>
           <source src="./../../../assets/reminder.mp3" type="audio/mp3" />
         </audio>
-        <span class="navicon operatingState" @click="handleStatus"><i />营业状态设置</span>
+        <!-- <span class="navicon operatingState" @click="handleStatus"><i />营业状态设置</span> -->
       </div>
       <div class="avatar-wrapper">
         <div :class="shopShow?'userInfo':''"

@@ -52,15 +52,6 @@ const router = new Router({
             affix: true
           }
         },
-		{
-          path: "/statistics",
-          component: () =>
-            import(/* webpackChunkName: "shopTable" */ "@/views/statistics/index.vue"),
-          meta: {
-            title: "数据统计",
-            icon: "icon-statistics"
-          }
-        },
         {
           path: "order",
           component: () =>
