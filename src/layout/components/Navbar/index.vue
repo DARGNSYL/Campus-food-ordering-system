@@ -1,15 +1,5 @@
 <template>
   <div class="navbar">
-    <div class="statusBox">
-      <hamburger id="hamburger-container"
-                 :is-active="sidebar.opened"
-                 class="hamburger-container"
-                 @toggleClick="toggleSideBar" />
-      <span v-if="status===1"
-            class="businessBtn">营业中</span>
-      <span v-else
-            class="businessBtn closing">打烊中</span>
-    </div>
 
     <div :key="restKey"
          class="right-menu">
@@ -36,11 +26,11 @@
                class="userList">
             <p class="amendPwdIcon"
                @click="handlePwd">
-              修改密码<i />
+              修改密码
             </p>
             <p class="outLogin"
                @click="logout">
-              退出登录<i />
+              退出登录
             </p>
           </div>
         </div>

@@ -48,7 +48,6 @@ const router = new Router({
           name: "Dashboard",
           meta: {
             title: "工作台",
-            icon: "dashboard",
             affix: true
           }
         },
@@ -58,7 +57,6 @@ const router = new Router({
             import(/* webpackChunkName: "shopTable" */ "@/views/orderDetails/index.vue"),
           meta: {
             title: "订单管理",
-            icon: "icon-order"
           }
         },
         {
@@ -67,7 +65,6 @@ const router = new Router({
             import(/* webpackChunkName: "shopTable" */ "@/views/setmeal/index.vue"),
           meta: {
             title: "套餐管理",
-            icon: "icon-combo"
           }
         },
         {
@@ -76,7 +73,6 @@ const router = new Router({
             import(/* webpackChunkName: "shopTable" */ "@/views/dish/index.vue"),
           meta: {
             title: "菜品管理",
-            icon: "icon-dish"
           }
         },
         {
@@ -95,7 +91,6 @@ const router = new Router({
             import(/* webpackChunkName: "shopTable" */ "@/views/category/index.vue"),
           meta: {
             title: "分类管理",
-            icon: "icon-category"
           }
         },
         {
@@ -104,7 +99,6 @@ const router = new Router({
             import(/* webpackChunkName: "shopTable" */ "@/views/employee/index.vue"),
           meta: {
             title: "员工管理",
-            icon: "icon-employee"
           }
         },
         
