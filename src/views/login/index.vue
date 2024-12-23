@@ -10,7 +10,7 @@
               style="width: 60px; height: 60px"
               alt=""
             />
-            <!-- <span class="title-label">苍穹外卖</span> -->
+            <!-- <span class="title-label">校园订餐系统</span> -->
             <span class="artistic-title">  校园订餐系统</span>
           </div>
           <el-form-item prop="username">
